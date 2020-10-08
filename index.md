@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+## RandText dataset
 
-You can use the [editor on GitHub](https://github.com/bigvideoresearch/RandText/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+![](./res/img/0.png)
+![](./res/img/1.png)
+![](./res/img/2.png)
+![](./res/img/3.png)
+![](./res/img/4.png)
+![](./res/img/5.png)
+![](./res/img/6.png)
+![](./res/img/7.png)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+---
 
-### Markdown
+### Introduction
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This is an official release of RandText dataset ([RobustScanner: Dynamically Enhancing Positional Clues for Robust Text Recognition (ECCV 2020)](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123640137.pdf) ).
 
-```markdown
-Syntax highlighted code block
+RandText contains 500 test images. We synthesize them by pasting black random character sequences on white background images.
+The character set contains small and capital letters, and numbers.
 
-# Header 1
-## Header 2
-### Header 3
+---
 
-- Bulleted
-- List
+### Download
 
-1. Numbered
-2. List
+[ [RandText](https://raw.githubusercontent.com/bigvideoresearch/RandText/master/data/RandText.zip) ]
 
-**Bold** and _Italic_ and `Code` text
+---
 
-[Link](url) and ![Image](src)
+### Reference
+
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bigvideoresearch/RandText/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+@InProceedings{yue2020robustscanner,
+  title={RobustScanner: Dynamically Enhancing Positional Clues for Robust Text Recognition},
+  author={Yue, Xiaoyu and Kuang, Zhanghui and Lin, Chenhao and Sun, Hongbin and Zhang, Wayne},
+  booktitle = {European Conference on Computer Vision (ECCV)},  
+  year = {2020}  
+}
+```
